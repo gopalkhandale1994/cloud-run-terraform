@@ -1,0 +1,14 @@
+# Ignore Terraform files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Ignore Docker build files
+docker-*
+
+# Ignore any IDE specific files
+.idea/
+.vscode/
+*.swp
